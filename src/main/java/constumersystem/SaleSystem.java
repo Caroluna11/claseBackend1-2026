@@ -78,7 +78,7 @@ public class SaleSystem {
             quantity= 0;
             state = false;
         }else {
-            System.out.println("Producto no encontrado");
+            System.out.println("Producto" + id + " encontrado");
         }
     }
 }
